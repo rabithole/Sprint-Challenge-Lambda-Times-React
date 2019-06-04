@@ -2,7 +2,7 @@ import React from 'react';
 import Tab from './Tab';
 
 const Tabs = props => {
-	// console.log(props)
+	console.log(props)
   return (
     <div className="tabs">
       <div className="topics">
@@ -11,6 +11,7 @@ const Tabs = props => {
 		{props.tabs.map(item => (
 			<Tab
 				tab={item}
+
 			/>			
 		))}
 

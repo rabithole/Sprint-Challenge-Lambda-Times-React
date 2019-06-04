@@ -11,6 +11,7 @@ const Cards = props => {
     		headline={item.headline}
     		img={item.img}
     		author={item.author}
+    		
     	/>
     ))}
 
