@@ -4,7 +4,6 @@ import Card from './Card';
 const Cards = props => {
   return (
     <div className="cards-container">
-
     {props.cards.map(item => (
     	<Card 
     		headline={item.headline}
